@@ -1,4 +1,4 @@
-# Build this image from the official image of nodejs
+# Build this image from an official image of nodejs
 FROM node:10-alpine
 # Specifies who built and maintains this image
 LABEL MAINTAINER=jatkin-wasti@spartaglobal.com
