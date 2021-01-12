@@ -1,4 +1,4 @@
-# Nodejs app with Docker
+# Hosting a static website with an nginx server using Docker containers
 ## Dockerfile
 - In our Dockerfile we specify what to base the image off with the `FROM` line
 - We then specify who is maintaining the container with the `LABEL`
