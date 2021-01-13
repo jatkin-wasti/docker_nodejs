@@ -124,3 +124,11 @@ services:
     ports:
       - "27017:27017"
 ```
+### Compose commands
+- We can now run `docker-compose up` to test if our implementation worked
+- If there are any errors, error messages should be displayed to help you fix
+this
+- However, running it this way hogs the terminal while running so if we are
+confident that it is working as intended we can use the `-d` flag to run in
+detached mode i.e. `docker-compose up -d` will allow you to still use the terminal
+after running it
