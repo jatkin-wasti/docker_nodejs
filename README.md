@@ -132,3 +132,5 @@ this
 confident that it is working as intended we can use the `-d` flag to run in
 detached mode i.e. `docker-compose up -d` will allow you to still use the terminal
 after running it
+- We can also destroy any components created from a compose up command by running
+`docker-compose down`
