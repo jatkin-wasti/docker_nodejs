@@ -91,6 +91,8 @@ EXPOSE 3000
 CMD ["npm", "start", "app.js;"]
 ```
 ### Db Dockerfile
+- The container this makes is available at https://hub.docker.com/repository/docker/jatkinwasti/eng74-node-db
+- You can run it with the following command `docker run -d -p 80:3000 jatkinwasti/eng74-node-db`
 ```GO
 # Build this image from an official image of mongo
 FROM mongo as mongodb
