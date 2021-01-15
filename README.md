@@ -103,6 +103,7 @@ EXPOSE 27017
 # Copy across the configuration file
 COPY ./mongod.conf usr/etc/
 ```
+
 ### Compose file
 - Our compose file will build containers using the Dockerfiles above
 - We then bind the appropriate container and host ports and link the two containers
